@@ -46,6 +46,7 @@
     :mode ("\\.groovy$" . groovy-mode)
     :config
     (progn
+      (setq groovy-indent-offset 2)
       (setq groovy-home "/usr/bin/"))))
 
 (defun groovy/post-init-smart-ops ()
